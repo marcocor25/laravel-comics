@@ -19,6 +19,7 @@
     <!-- MAIN -->
     <main>
         @include('partials.main')
+        @include('partials.banner')
     </main>
 
     <!-- FOOTER -->
