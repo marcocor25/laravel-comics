@@ -24,6 +24,7 @@
     <!-- FOOTER -->
     <footer>
         @include('partials.footer')
+        @include('partials.nav-footer')
     </footer>
 
 </body>
