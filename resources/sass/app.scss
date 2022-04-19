@@ -1,1 +1,36 @@
-//
+// FONT
+@import "/resources/sass/font.scss";
+
+// HEADER
+@import "/resources/sass/header.scss";
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    font-family: "Open Sans", sans-serif;
+    font-size: 14px;
+    color: #2c3e50;
+}
+
+img {
+    display: block;
+    width: 100%;
+    height: 100%;
+    user-select: none;
+    -webkit-user-select: none;
+    -webkit-user-drag: none;
+}
+
+a {
+    text-decoration: none;
+    color: currentColor;
+}
+
+ul,
+ol {
+    list-style: none;
+}
