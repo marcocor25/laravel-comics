@@ -1,3 +1,50 @@
+@php
+
+$link = [
+[
+"text" => "Characters",
+"href" => "/",
+],
+[
+"text" => "Comics",
+"href" => "/",
+],
+[
+"text" => "Movies",
+"href" => "/",
+],
+[
+"text" => "TV",
+"href" => "/",
+],
+[
+"text" => "Games",
+"href" => "/",
+],
+[
+"text" => "collectibles",
+"href" => "/",
+],
+[
+"text" => "videos",
+"href" => "/",
+],
+[
+"text" => "fans",
+"href" => "/",
+],
+[
+"text" => "news",
+"href" => "/",
+],
+[
+"text" => "shop",
+"href" => "/",
+]
+];
+
+@endphp
+
 <div class="container-fluid">
     <div class="container">
         <figure class="logo">
@@ -6,36 +53,13 @@
 
         <div class="nav-link">
             <ul>
+                @foreach($link as $el)
                 <li>
-                    <a href="/">characters</a>
+                    <a href="{{$el["href"]}}">
+                        {{$el["text"]}}
+                    </a>
                 </li>
-                <li>
-                    <a href="/">comics</a>
-                </li>
-                <li>
-                    <a href="/">movies</a>
-                </li>
-                <li>
-                    <a href="/">tv</a>
-                </li>
-                <li>
-                    <a href="/">games</a>
-                </li>
-                <li>
-                    <a href="/">collectibles</a>
-                </li>
-                <li>
-                    <a href="/">videos</a>
-                </li>
-                <li>
-                    <a href="/">fans</a>
-                </li>
-                <li>
-                    <a href="/">news</a>
-                </li>
-                <li>
-                    <a href="/">shop</a>
-                </li>
+                @endforeach
             </ul>
         </div>
     </div>
