@@ -45,6 +45,100 @@
   color: #0082f9;
 }
 
+.main-fluid {
+  background: #1c1c1c;
+}
+
+.main-fluid .jumbotron {
+  min-height: 300px;
+  background-image: url("/img/jumbotron.jpg");
+  background-size: cover;
+  background-position: top;
+}
+
+.main-fluid .container {
+  width: 1000px;
+  margin: 0 auto;
+  padding-top: 50px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  color: #fffffd;
+  position: relative;
+}
+
+.main-fluid .container .badge {
+  position: absolute;
+  top: -20px;
+  left: 0;
+  width: 180px;
+  padding: 10px;
+  text-align: center;
+  text-transform: uppercase;
+  -webkit-user-select: none;
+     -moz-user-select: none;
+      -ms-user-select: none;
+          user-select: none;
+  color: #fffffd;
+  background: #0082f9;
+}
+
+.main-fluid .container .card {
+  width: calc(16.6666666667% - 20px);
+  height: 190px;
+  filter: drop-shadow(2px 2px 3px black);
+  cursor: pointer;
+  transition: 200ms linear;
+}
+
+.main-fluid .container .card .card-image {
+  aspect-ratio: 1/1;
+}
+
+.main-fluid .container .card .card-image img {
+  -o-object-fit: cover;
+     object-fit: cover;
+  -o-object-position: top;
+     object-position: top;
+  display: block;
+}
+
+.main-fluid .container .card .card-title {
+  padding: 10px 0;
+  text-transform: uppercase;
+}
+
+.main-fluid .container .card:hover {
+  transform: translateY(-10px);
+}
+
+.main-fluid .button-wrapper {
+  min-height: 60px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.main-fluid .button-wrapper .button {
+  padding: 5px 30px;
+  text-align: center;
+  text-transform: uppercase;
+  -webkit-user-select: none;
+     -moz-user-select: none;
+      -ms-user-select: none;
+          user-select: none;
+  cursor: pointer;
+  color: #fffffd;
+  background: #0082f9;
+  transition: 200ms linear;
+}
+
+.main-fluid .button-wrapper .button:hover {
+  transform: scale(1.1);
+  background: #1a71d2;
+}
+
 .footer-fluid {
   background-image: url("/img/footer-bg.jpg");
   background-size: cover;

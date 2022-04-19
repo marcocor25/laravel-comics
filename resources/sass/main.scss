@@ -1,0 +1,85 @@
+.main-fluid {
+    background: #1c1c1c;
+
+    .jumbotron {
+        min-height: 300px;
+        background-image: url("/img/jumbotron.jpg");
+        background-size: cover;
+        background-position: top;
+    }
+
+    .container {
+        width: 1000px;
+        margin: 0 auto;
+        padding-top: 50px;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        flex-wrap: wrap;
+        color: #fffffd;
+        position: relative;
+
+        .badge {
+            position: absolute;
+            top: -20px;
+            left: 0;
+            width: 180px;
+            padding: 10px;
+            text-align: center;
+            text-transform: uppercase;
+            user-select: none;
+            color: #fffffd;
+            background: #0082f9;
+        }
+
+        .card {
+            width: calc((100% / 6) - 20px);
+            height: 190px;
+            filter: drop-shadow(2px 2px 3px black);
+            cursor: pointer;
+            transition: 200ms linear;
+
+            .card-image {
+                aspect-ratio: 1/1;
+
+                img {
+                    object-fit: cover;
+                    object-position: top;
+                    display: block;
+                }
+            }
+
+            .card-title {
+                padding: 10px 0;
+                text-transform: uppercase;
+            }
+
+            &:hover {
+                transform: translateY(-10px);
+            }
+        }
+    }
+
+    .button-wrapper {
+        min-height: 60px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+
+        .button {
+            padding: 5px 30px;
+            text-align: center;
+            text-transform: uppercase;
+            user-select: none;
+            cursor: pointer;
+            color: #fffffd;
+            background: #0082f9;
+            transition: 200ms linear;
+
+            &:hover {
+                transform: scale(1.1);
+                background: #1a71d2;
+            }
+        }
+    }
+}

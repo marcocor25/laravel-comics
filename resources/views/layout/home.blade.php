@@ -18,7 +18,7 @@
 
     <!-- MAIN -->
     <main>
-
+        @include('partials.main')
     </main>
 
     <!-- FOOTER -->
