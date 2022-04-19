@@ -1,10 +1,10 @@
 @import url(https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;
 
-0,400;0,500;0,600;0,700;0,800;1,300;1,400;1,500;1,600;1,700;1,800&display=swap);.container-fluid {
+0,400;0,500;0,600;0,700;0,800;1,300;1,400;1,500;1,600;1,700;1,800&display=swap);.header-fluid {
   background: white;
 }
 
-.container-fluid .container {
+.header-fluid .container {
   width: 1000px;
   min-height: 80px;
   margin: 0 auto;
@@ -13,17 +13,17 @@
   align-items: center;
 }
 
-.container-fluid .container .logo {
+.header-fluid .container .logo {
   width: 60px;
   height: 60px;
 }
 
-.container-fluid .container .nav-link ul {
+.header-fluid .container .nav-link ul {
   display: flex;
   gap: 20px;
 }
 
-.container-fluid .container .nav-link li {
+.header-fluid .container .nav-link li {
   line-height: 77px;
   border-bottom: 3px solid transparent;
   font-size: 11px;
@@ -31,17 +31,61 @@
   transition: 200ms linear;
 }
 
-.container-fluid .container .nav-link li:hover {
+.header-fluid .container .nav-link li a {
+  font-weight: 700;
+  text-transform: uppercase;
+  transition: 200ms linear;
+}
+
+.header-fluid .container .nav-link li:hover {
   border-bottom: 3px solid #0082f9;
+}
+
+.header-fluid .container .nav-link li:hover a {
   color: #0082f9;
 }
 
-.container-fluid .container .nav-link a {
-  font-weight: 700;
-  text-decoration: none;
+.footer-fluid {
+  background-image: url("/img/footer-bg.jpg");
+  background-size: cover;
+  background-position: center;
+}
+
+.footer-fluid .container {
+  width: 1000px;
+  min-height: 300px;
+  margin: 0 auto;
+  display: flex;
+  color: #fffffd;
+}
+
+.footer-fluid .container .list-col {
+  width: 60%;
+  padding: 20px 0;
+  display: flex;
+  gap: 30px;
+}
+
+.footer-fluid .container .list-col h2 {
+  padding: 10px 0;
   text-transform: uppercase;
-  color: currentColor;
-  transition: 200ms linear;
+}
+
+.footer-fluid .container .list-col li {
+  cursor: pointer;
+  color: #788d77;
+}
+
+.footer-fluid .container .list-col li:hover {
+  color: #fffffd;
+  text-decoration: underline;
+}
+
+.footer-fluid .container .logo-col {
+  width: 40%;
+  background-image: url("/img/dc-logo-bg.png");
+  background-size: cover;
+  background-position: center;
 }
 
 * {
@@ -52,7 +96,7 @@
 
 html {
   font-family: "Open Sans", sans-serif;
-  font-size: 14px;
+  font-size: 12px;
   color: #2c3e50;
 }
 

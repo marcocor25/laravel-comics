@@ -4,6 +4,9 @@
 // HEADER
 @import "/resources/sass/header.scss";
 
+// FOOTER
+@import "/resources/sass/footer.scss";
+
 * {
     margin: 0;
     padding: 0;
@@ -12,7 +15,7 @@
 
 html {
     font-family: "Open Sans", sans-serif;
-    font-size: 14px;
+    font-size: 12px;
     color: #2c3e50;
 }
 

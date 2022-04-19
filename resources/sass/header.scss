@@ -1,4 +1,4 @@
-.container-fluid {
+.header-fluid {
     background: white;
 
     .container {
@@ -27,18 +27,19 @@
                 cursor: pointer;
                 transition: 200ms linear;
 
+                a {
+                    font-weight: 700;
+                    text-transform: uppercase;
+                    transition: 200ms linear;
+                }
+
                 &:hover {
                     border-bottom: 3px solid #0082f9;
+                }
+
+                &:hover a {
                     color: #0082f9;
                 }
-            }
-
-            a {
-                font-weight: 700;
-                text-decoration: none;
-                text-transform: uppercase;
-                color: currentColor;
-                transition: 200ms linear;
             }
         }
     }

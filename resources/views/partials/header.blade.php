@@ -45,7 +45,7 @@ $link = [
 
 @endphp
 
-<div class="container-fluid">
+<div class="header-fluid">
     <div class="container">
         <figure class="logo">
             <img src="{{ asset('img/dc-logo.png') }}" alt="">
