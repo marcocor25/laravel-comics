@@ -1,46 +1,46 @@
 @php
 
 $link = [
-[
-"text" => "Characters",
-"href" => "/",
-],
-[
-"text" => "Comics",
-"href" => "/",
-],
-[
-"text" => "Movies",
-"href" => "/",
-],
-[
-"text" => "TV",
-"href" => "/",
-],
-[
-"text" => "Games",
-"href" => "/",
-],
-[
-"text" => "collectibles",
-"href" => "/",
-],
-[
-"text" => "videos",
-"href" => "/",
-],
-[
-"text" => "fans",
-"href" => "/",
-],
-[
-"text" => "news",
-"href" => "/",
-],
-[
-"text" => "shop",
-"href" => "/",
-]
+    [
+        'text' => 'Characters',
+        'href' => '/',
+    ],
+    [
+        'text' => 'Comics',
+        'href' => '/',
+    ],
+    [
+        'text' => 'Movies',
+        'href' => '/',
+    ],
+    [
+        'text' => 'TV',
+        'href' => '/',
+    ],
+    [
+        'text' => 'Games',
+        'href' => '/',
+    ],
+    [
+        'text' => 'collectibles',
+        'href' => '/',
+    ],
+    [
+        'text' => 'videos',
+        'href' => '/',
+    ],
+    [
+        'text' => 'fans',
+        'href' => '/',
+    ],
+    [
+        'text' => 'news',
+        'href' => '/',
+    ],
+    [
+        'text' => 'shop',
+        'href' => '/',
+    ],
 ];
 
 @endphp
@@ -53,12 +53,12 @@ $link = [
 
         <div class="nav-link">
             <ul>
-                @foreach($link as $el)
-                <li>
-                    <a href="{{$el["href"]}}">
-                        {{$el["text"]}}
-                    </a>
-                </li>
+                @foreach ($link as $el)
+                    <li>
+                        <a href="{{ $el['href'] }}">
+                            {{ $el['text'] }}
+                        </a>
+                    </li>
                 @endforeach
             </ul>
         </div>
