@@ -5,7 +5,7 @@
             <h2>current series</h2>
         </div>
 
-        @foreach ($thumbs as $el)
+        @foreach ($comics as $el)
             <a href="#" class="card">
                 <figure class="card-image">
                     <img src="{{ $el['thumb'] }}" alt="{{ $el['title'] }}">
