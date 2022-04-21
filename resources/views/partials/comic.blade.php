@@ -1,6 +1,6 @@
 @extends('layouts.standard')
 
-@section('metaTitle', 'DC Comics | ')
+@section('metaTitle', 'DC Comic | '. $comic['title'])
 
 @section('mainContent')
     <div class="main-fluid">
