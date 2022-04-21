@@ -47,7 +47,7 @@ $link = [
 
 <div class="header-fluid">
     <div class="container">
-        <a href="#">
+        <a href="{{ route('index') }}">
             <figure class="logo">
                 <img src="{{ asset('img/dc-logo.png') }}" alt="DC Comics">
             </figure>
