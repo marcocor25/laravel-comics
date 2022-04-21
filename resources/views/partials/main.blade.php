@@ -6,20 +6,20 @@
         </div>
 
         @foreach ($thumbs as $el)
-            <div class="card">
+            <a href="#" class="card">
                 <figure class="card-image">
                     <img src="{{ $el['thumb'] }}" alt="{{ $el['title'] }}">
                 </figure>
                 <h5 class="card-title">
                     {{ $el['title'] }}
                 </h5>
-            </div>
+            </a>
         @endforeach
 
     </div>
     <div class="button-wrapper">
-        <div class="button">
+        <a href="#" class="button">
             load more
-        </div>
+        </a>
     </div>
 </div>

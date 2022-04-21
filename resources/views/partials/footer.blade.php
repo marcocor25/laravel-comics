@@ -3,109 +3,109 @@
 $list1 = [
     [
         'text' => 'Characters',
-        'href' => '/',
+        'href' => '#',
     ],
     [
         'text' => 'Comics',
-        'href' => '/',
+        'href' => '#',
     ],
     [
         'text' => 'Movie',
-        'href' => '/',
+        'href' => '#',
     ],
     [
         'text' => 'TV',
-        'href' => '/',
+        'href' => '#',
     ],
     [
         'text' => 'Games',
-        'href' => '/',
+        'href' => '#',
     ],
     [
         'text' => 'Videos',
-        'href' => '/',
+        'href' => '#',
     ],
     [
         'text' => 'News',
-        'href' => '/',
+        'href' => '#',
     ],
 ];
 $list2 = [
     [
         'text' => 'Terms Of Use',
-        'href' => '/',
+        'href' => '#',
     ],
     [
         'text' => 'Privacy Policy (New)',
-        'href' => '/',
+        'href' => '#',
     ],
     [
         'text' => 'Ad Choices',
-        'href' => '/',
+        'href' => '#',
     ],
     [
         'text' => 'Advertising',
-        'href' => '/',
+        'href' => '#',
     ],
     [
         'text' => 'Jobs',
-        'href' => '/',
+        'href' => '#',
     ],
     [
         'text' => 'Subscription',
-        'href' => '/',
+        'href' => '#',
     ],
     [
         'text' => 'Talent Workshops',
-        'href' => '/',
+        'href' => '#',
     ],
     [
         'text' => 'CPSC Certificates',
-        'href' => '/',
+        'href' => '#',
     ],
     [
         'text' => 'Ratings',
-        'href' => '/',
+        'href' => '#',
     ],
     [
         'text' => 'Shop Help',
-        'href' => '/',
+        'href' => '#',
     ],
     [
         'text' => 'Contact Us',
-        'href' => '/',
+        'href' => '#',
     ],
 ];
 $list3 = [
     [
         'text' => 'DC',
-        'href' => '/',
+        'href' => '#',
     ],
     [
         'text' => 'MAD Magazine',
-        'href' => '/',
+        'href' => '#',
     ],
     [
         'text' => 'DC Kids',
-        'href' => '/',
+        'href' => '#',
     ],
     [
         'text' => 'DC Universe',
-        'href' => '/',
+        'href' => '#',
     ],
     [
         'text' => 'DC Power Visa',
-        'href' => '/',
+        'href' => '#',
     ],
 ];
 $list4 = [
     [
         'text' => 'Shop DC',
-        'href' => '/',
+        'href' => '#',
     ],
     [
         'text' => 'Shop DC collectibles',
-        'href' => '/',
+        'href' => '#',
     ],
 ];
 

@@ -27,17 +27,17 @@ $social = [
 
 <div class="nav-footer-fluid">
     <div class="container">
-        <div class="button">sign-up now</div>
+        <a href="#" class="button">sign-up now</a>
 
         <div class="social-wrapper">
             <h3>follow us</h3>
-            <div class="icons-wrapper">
+            <a href="#" class="icons-wrapper">
                 @foreach ($social as $el)
                     <figure class="icon">
                         <img src="{{ $el['img'] }}" alt="{{ $el['text'] }}">
                     </figure>
                 @endforeach
-            </div>
+            </a>
         </div>
     </div>
 </div>

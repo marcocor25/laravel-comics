@@ -13,7 +13,6 @@
             padding: 10px;
             border: 2px solid #0c80f7;
             text-transform: uppercase;
-            cursor: pointer;
             user-select: none;
             color: #fffffd;
             transition: 200ms linear;
@@ -30,7 +29,6 @@
             gap: 20px;
             text-transform: uppercase;
             color: #0c80f7;
-            cursor: default;
         }
 
         .icons-wrapper {
@@ -41,7 +39,6 @@
         .icon {
             width: 25px;
             height: 25px;
-            cursor: pointer;
             user-select: none;
             transition: 200ms linear;
 

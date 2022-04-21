@@ -36,7 +36,6 @@
             width: calc((100% / 6) - 20px);
             height: 190px;
             filter: drop-shadow(2px 2px 3px black);
-            cursor: pointer;
             transition: 200ms linear;
 
             .card-image {
@@ -71,7 +70,6 @@
             text-align: center;
             text-transform: uppercase;
             user-select: none;
-            cursor: pointer;
             color: #fffffd;
             background: #0082f9;
             transition: 200ms linear;

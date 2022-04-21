@@ -28,12 +28,12 @@ $items = [
 <div class="banner-fluid">
     <div class="container">
         @foreach ($items as $el)
-            <div class="thumb-wrapper">
+            <a href="#" class="thumb-wrapper">
                 <figure class="thumb-image">
                     <img src="{{ $el['img'] }}" alt="{{ $el['text'] }}">
                 </figure>
                 <h4>{{ $el['text'] }}</h4>
-            </div>
+            </a>
         @endforeach
     </div>
 </div>

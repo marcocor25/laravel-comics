@@ -3,43 +3,43 @@
 $link = [
     [
         'text' => 'Characters',
-        'href' => '/',
+        'href' => '#',
     ],
     [
         'text' => 'Comics',
-        'href' => '/',
+        'href' => '#',
     ],
     [
         'text' => 'Movies',
-        'href' => '/',
+        'href' => '#',
     ],
     [
         'text' => 'TV',
-        'href' => '/',
+        'href' => '#',
     ],
     [
         'text' => 'Games',
-        'href' => '/',
+        'href' => '#',
     ],
     [
         'text' => 'collectibles',
-        'href' => '/',
+        'href' => '#',
     ],
     [
         'text' => 'videos',
-        'href' => '/',
+        'href' => '#',
     ],
     [
         'text' => 'fans',
-        'href' => '/',
+        'href' => '#',
     ],
     [
         'text' => 'news',
-        'href' => '/',
+        'href' => '#',
     ],
     [
         'text' => 'shop',
-        'href' => '/',
+        'href' => '#',
     ],
 ];
 
@@ -47,9 +47,11 @@ $link = [
 
 <div class="header-fluid">
     <div class="container">
-        <figure class="logo">
-            <img src="{{ asset('img/dc-logo.png') }}" alt="DC Comics">
-        </figure>
+        <a href="#">
+            <figure class="logo">
+                <img src="{{ asset('img/dc-logo.png') }}" alt="DC Comics">
+            </figure>
+        </a>
 
         <div class="nav-link">
             <ul>
