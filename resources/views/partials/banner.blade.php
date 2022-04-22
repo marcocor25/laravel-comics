@@ -30,7 +30,7 @@ $items = [
         @foreach ($items as $el)
             <a href="#" class="thumb-wrapper">
                 <figure class="thumb-image">
-                    <img src="{{ $el['img'] }}" alt="{{ $el['text'] }}">
+                    <img src="{{ asset($el['img']) }}" alt="{{ $el['text'] }}">
                 </figure>
                 <h4>{{ $el['text'] }}</h4>
             </a>

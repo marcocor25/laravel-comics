@@ -34,7 +34,7 @@ $social = [
             <a href="#" class="icons-wrapper">
                 @foreach ($social as $el)
                     <figure class="icon">
-                        <img src="{{ $el['img'] }}" alt="{{ $el['text'] }}">
+                        <img src="{{ asset($el['img']) }}" alt="{{ $el['text'] }}">
                     </figure>
                 @endforeach
             </a>
